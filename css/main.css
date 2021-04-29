@@ -7565,20 +7565,52 @@ body {
 .featurette {
   margin: 50px 0; }
 
-#summary p.collapse:not(.show) {
+#summary1 p.collapse:not(.show) {
   height: 150px !important;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; }
 
-#summary p.collapsing {
+#summary1 p.collapsing {
   min-height: 150px !important; }
 
-#summary button.collapsed:after {
+#summary1 button.collapsed:after {
   content: '+ Read More'; }
 
-#summary button:not(.collapsed):after {
+#summary1 button:not(.collapsed):after {
+  content: '- Read Less'; }
+
+#summary2 p.collapse:not(.show) {
+  height: 150px !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+#summary2 p.collapsing {
+  min-height: 150px !important; }
+
+#summary2 button.collapsed:after {
+  content: '+ Read More'; }
+
+#summary2 button:not(.collapsed):after {
+  content: '- Read Less'; }
+
+#summary3 p.collapse:not(.show) {
+  height: 150px !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+#summary3 p.collapsing {
+  min-height: 150px !important; }
+
+#summary3 button.collapsed:after {
+  content: '+ Read More'; }
+
+#summary3 button:not(.collapsed):after {
   content: '- Read Less'; }
 
 .contacts {
